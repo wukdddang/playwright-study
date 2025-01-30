@@ -43,7 +43,7 @@ export class FormLayoutsPage extends HelperBase {
 
     await usingTheInlineForm
       .getByRole("textbox", { name: "Jane Doe" })
-      .fill(email);
+      .fill(name);
     await usingTheInlineForm
       .getByRole("textbox", { name: "Email" })
       .fill(email);
